@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+
+}
+.grid-container-resut{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+
+}
+.grid-item{
+    margin: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+  /* Modal Content */
+  .modal-content {
+    display: none;
+    background-color: #fefefe;
+    padding: 50px;
+    border: 1px solid #888;
+    width: 100%;
+    font-size: 20px;
+  }
+  .hide{
+    display: none;
+  }
+  .inputs{
+    padding: 7px;
+    width: 72%;
+  }
+  

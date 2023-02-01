@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Test F2</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item"><img src="1.jpg" id="img1" class="imgs" alt="images"></div>
+        <div class="grid-item"><img src="2.jpg" id="img2" class="imgs" alt="images"></div>
+        <div class="grid-item"><img src="3.jpg" id="img3" class="imgs" alt="images"></div>
+        <div class="grid-item"><img src="4.jpg" id="img4" class="imgs" alt="images"></div>
+    </div>
+
+<div class="grid-container-resut">
+    <div class="grid-item">
+        <div class="modal-content hide" id="myModal">
+            <div class="" id="">
+                
+                    <h1>Register</h1>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="inputs" placeholder="Enter your name" required ><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="inputs" placeholder="Enter your email" required><br><br>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username"class="inputs" placeholder="Enter your username" required><br><br>
+                <button style="font-size: 27px;" id="btnsubmit" type="submit">Submit</button>
+           
+            </div>
+          </div>
+    </div>
+    <div class="grid-item">
+        <div class="hide" id="detail">
+            <h2 id="displayName"></h2>
+            <h3 id="displayusername"></h3>
+        </div>
+    </div>
+    <div class="grid-item">
+        <div id="mess"></div>
+        <h3  id="sumT"></h3>
+        <img src="dice.jpg" alt="Dice" id="dice" class="hide">
+    </div>
+    <div class="grid-item">
+        <h1 id="error" class="hide">Bad luck</h1>
+       <h1 id="h1"></h1>
+        <img src="congratulatory.jpg" alt="congratulatory" id="congrat" class="hide">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
